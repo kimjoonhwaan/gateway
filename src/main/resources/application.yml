@@ -24,10 +24,10 @@ spring:
           uri: http://localhost:8084
           predicates:
             - Path= /views/**
-        - id: alarm
+        - id: smartdata
           uri: http://localhost:8085
           predicates:
-            - Path= /alarms/**
+            - Path= /SmartData/**
 
       globalcors:
         corsConfigurations:
@@ -64,10 +64,10 @@ spring:
           uri: http://MyPage:8080
           predicates:
             - Path= /views/**
-        - id: alarm
-          uri: http://alarm:8080
+        - id: smartdata
+          uri: http://smartdata:8080
           predicates:
-            - Path= /alarms/**
+            - Path= /SmartData/**
 
       globalcors:
         corsConfigurations:
