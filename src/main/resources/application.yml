@@ -28,6 +28,10 @@ spring:
           uri: http://localhost:8085
           predicates:
             - Path= /alarms/**
+        - id: myDate
+            uri: http://localhost:8086
+            predicates:
+              - Path= /mydata/**
       globalcors:
         corsConfigurations:
           '[/**]':
@@ -67,6 +71,10 @@ spring:
           uri: http://alarm:8080
           predicates:
             - Path= /alarms/**
+        - id: myDate
+            uri: http://mydate:8080
+            predicates:
+              - Path= /mydate/**
       globalcors:
         corsConfigurations:
           '[/**]':
