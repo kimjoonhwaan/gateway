@@ -4,7 +4,7 @@ env:
   variables:
     _PROJECT_NAME: "gateway"
     _NAMESPACE: "skcc-ns"
-    _AWS_REGION: "us-east-2"
+    _AWS_REGION: "ap-northeast-2"
 
 phases:
   install:
